@@ -1,0 +1,397 @@
+img {
+  width:90%;
+  height:90%;
+}
+
+body {
+  width:100vw;
+  overflow: hidden;
+}
+
+a:visited, a, a:active {
+  text-decoration: none;
+  color:white;
+}
+
+.op {opacity:0%;}
+.cover {
+  position: absolute;
+  background-color:black;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  opacity:30%;
+}
+
+.Home {
+  position: absolute;
+  top:30px;
+  left:50px;
+  color:white;
+  font-size:40px;
+  z-index:2;
+  font-family: futura-pt;
+}
+
+
+.Title {
+  position: absolute;
+  top:200px;
+  left:80px;
+  color:white;
+  font-size:90px;
+  font-weight: bold;
+  font-family:futura-pt;
+  font-weight:600;
+}
+
+.Synopsis {
+  position: absolute;
+  top:310px;
+  left:80px;
+  color:white;
+  font-size:30px;
+  width:40%;
+  font-family: futura-pt;
+}
+
+.Lower {
+  position: absolute;
+  top:80px;
+  width:780px;
+}
+
+.Genre {
+  position: absolute;
+  top:650px;
+  left:80px;
+  color:white;
+  font-size:30px;
+  font-family: futura-pt;
+}
+
+.Watch {
+  position: absolute;
+  top:690px;
+  left:80px;
+  opacity:90%;
+}
+
+.Rating {
+  position: absolute;
+  top:750px;
+  left:80px;
+  color:white;
+  font-size:20px;
+  font-family: futura-pt;
+}
+
+.Container {
+  position: absolute;
+  bottom:0px;
+  right:140px;
+  /* border: 5px solid white; */
+  height:500px;
+  width:810px;
+  overflow: hidden;
+}
+
+.Seasons {
+  position: absolute;
+  bottom:0px;
+  right:-30px;
+}
+
+.Seasons2 {
+  position: absolute;
+  bottom:0px;
+  right:950px;
+}
+
+.SeasonNumber {
+  font-size:30px;
+  color:white;
+  font-family:futura-pt;
+}
+
+.EpisodeNumber {
+  font-size:20px;
+  color:white;
+  font-family: futura-pt;
+}
+
+.SeasonNumber2 {
+  font-size:30px;
+  color:white;
+  font-family:futura-pt;
+  opacity:0%;
+}
+
+.EpisodeNumber2 {
+  font-size:20px;
+  color:white;
+  font-family: futura-pt;
+  opacity:0%;
+}
+
+ .One {
+  position: absolute;
+  bottom:400px;
+  right:625px;
+ }
+
+ .Two {
+  position: absolute;
+  bottom:400px;
+  right:360px;
+ }
+
+ .Three {
+  position: absolute;
+  bottom:400px;
+  right:85px;
+ }
+
+.Four {
+  position: absolute;
+  bottom:355px;
+  right:625px;
+}
+
+.Movie {
+  position: absolute;
+  bottom:355px;
+  right:380px;
+
+}
+.Five {
+  position: absolute;
+  bottom:355px;
+  right:355px;
+}
+
+.Six {
+  position: absolute;
+  bottom:355px;
+  right:90px;
+}
+
+.imgg {
+  position: absolute;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+}
+
+.Box {
+  position: absolute;
+  top:0px;
+  left:0px;
+  height:540px;
+  width:360px;
+  border: red solid 3px;
+}
+
+@media screen and (min-width:502px) {
+.imgg {
+    background:url("../images/Demon Slayer.png");
+  }
+}
+
+@media screen and (max-width:501px) {
+
+  .Box {
+    position: absolute;
+    top:463px;
+    left:54px;
+    height:183px;
+    width:98px;
+    background-color:red;
+    z-index:2;
+  }
+
+  .imgg {
+    background:url("../images/DSCROP.png");
+  }
+
+  .Home {
+    font-size:15px;
+    left:2%;
+    top:0px;
+  }
+
+  .Title {
+    top:60px;
+    font-size:25px;
+    width:100%;
+    left:2%;
+  }
+
+  .Synopsis {
+    font-size:16px;
+    left:2%;
+    top:100px;
+    width:90%;
+    line-height: 18px;
+  }
+
+  .Genre {
+    font-size:13px;
+    left:2%;
+    top:270px;
+  }
+
+  .Watch {
+    left:2%;
+    top:297px;
+    height:19px;
+    width:123px;
+    /* transform: scale(.4); */
+  }
+
+  .Rating {
+    font-size:13px;
+    left:2%;
+    top:320px;
+  }
+
+  .Container {
+    position: absolute;
+    top:420px;
+    left:0px;
+    width:100%;
+    text-align: center;
+    border: red 2px solid;
+    height:300px;
+  }
+
+  .uno {
+    position: absolute;
+    left:5%;
+    top:380px;
+    height:275px;
+    text-align: center;
+  }
+
+  .dos {
+    position: absolute;
+    left:0%;
+    top:358px;
+    height:275px;
+    text-align: center;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tres {
+    position: absolute;
+    right:5%;
+    top:380px;
+    height:275px;
+    text-align: center;
+  }
+
+  }
+  .Season1 {
+    position: relative;
+    top:62px;
+    left:0%;
+    height:210px;
+    width:115px;
+    z-index:3;
+  }
+
+  .Season2 {
+    position: relative;
+    top:62px;
+    height:210px;
+    width:115px;
+    z-index:3;
+  }
+
+  .Season3 {
+    position: relative;
+    top:62px;
+    left:0%;
+    height:210px;
+    width:115px;
+    z-index:3;
+  }
+
+  .Seasons {
+    position: absolute;
+    text-align: center;
+    top:460px;
+    left:6%;
+    width:88%;
+    height:220px;
+  }
+
+  .SeasonNumber {
+    position: relative;
+    font-size:15px;
+    top:0px;
+    left:0px;
+  }
+
+  .EpisodeNumber {
+    position: relative;
+    font-size:12px;
+    top:0px;
+    left:0px;
+  }
+
+  .One {
+    width:100%;
+    position: absolute;
+    top:0px;
+    left:0%;
+  }
+
+  .Two {
+    width:100%;
+    position: absolute;
+    top:0px;
+    left:0%;
+  }
+
+  .Three {
+    width:100%;
+    position: absolute;
+    top:0px;
+    left:0%;
+  }
+
+  .Four {
+    width:100%;
+    position: relative;
+    top:61px;
+    left:0%;
+    font-size:13px;
+  }
+
+  .Five {
+
+  }
+
+  .Six {
+    width:100%;
+    position: relative;
+    top:61px;
+    left:0%;
+    font-size:13px;
+  }
+
+  .Movie {
+    width:100%;
+    position: relative;
+    top:61px;
+    left:0%;
+    font-size:13px;
+  }
+
+}
